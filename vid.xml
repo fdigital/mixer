@@ -1,0 +1,12 @@
+<project name="projet" width="1280" ratio="16:9" format="MP4" callbackUrl="https://rdi.sb/rendering/render_callback.php" lang="EN">
+	<video_image>
+		<media 
+			url="https://veo-content-ii.s3.amazonaws.com/ae0cb26e-7234-4c9f-b8a6-cd676787c6ff/standard/machine/534e2598/video.mp4" start="0" end="7" tstart="2" />
+	</video_image>
+	<text>
+		<caption 
+			text="my%20first" color="0xFFFFFF" start="3" end="5" font="Armata" fontsize="16" textalign="left" startX="300" endX="300" startY="385" endY="385" startR="0" endR="0" startS="100" endS="100" FX="FADE" />
+	</text>
+</project>
+
+
