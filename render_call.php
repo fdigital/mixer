@@ -11,7 +11,7 @@ $doc = new DOMDocument();
 
 
 // Definition of the storyboard
-$doc->load('vid.xml');
+$doc->load('video.xml');
 $video_storyboard =$doc->saveXML();
 
 // Concat var for Api

@@ -1,7 +1,7 @@
 <?php	// Definition of variables (change)
 
-	if (isset($_GET['moovieId'])) {
-		$moovie_id = $_GET['moovieId'];
+	if (isset($_GET['id'])) {
+		$moovie_id = $_GET['id'];
 	} else {
 		$moovie_id = "0";
 	}

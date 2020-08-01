@@ -1,0 +1,80 @@
+<project 
+	name="projet" 
+	width="1024" 
+	ratio="16:9" 
+	format="MP4" 
+	callbackUrl="https://rdi.sb/rendering/render_callback.php" 
+	lang="FR"
+>
+<!-- Contenu vidéo / images (finir par les images superposées) -->
+	<video_image>
+	<!-- Introduction -->
+		<media 
+			url="https://clbvzr.herokuapp.com/videos/clubvizer_intro.mp4" 
+			start="0"
+			end="4" 
+			transitionId="495" 
+		/>
+	<!-- Séquence 1 -->
+		<media 
+			url="https://c.veocdn.com/eaebf05f-ad00-4149-b38b-7bb7933c6a23/standard/machine/6086390a/h264_480_1800k.mp4" 
+			start="3" 
+			end="12" 
+			transitionId="743" 
+			tstart="115.4" 
+		/>
+	<!-- Séquence 2 -->
+		<media 
+			url="https://c.veocdn.com/eaebf05f-ad00-4149-b38b-7bb7933c6a23/standard/machine/6086390a/h264_480_1800k.mp4" 
+			start="10" 
+			end="20" 
+			transitionId="743" 
+			tstart="580" 
+		/>
+	<!-- Séquence 3 -->
+		<media 
+			url="https://c.veocdn.com/eaebf05f-ad00-4149-b38b-7bb7933c6a23/standard/machine/6086390a/h264_480_1800k.mp4" 
+			start="18" 
+			end="36" 
+			transitionId="743" 
+			tstart="1204" 
+		/>
+	<!-- Logo -->
+		<media 
+			url="https://clbvzr.herokuapp.com/img/logo_clubvizer.png" 
+			start="4" 
+			end="36" 
+			preset="bottom-left"
+		 />
+	<!-- Fin -->
+		<media 
+			url="https://clbvzr.herokuapp.com/videos/clubvizer_end.mp4" 
+			start="34" 
+			end="40" 
+			transitionId="495" 
+		/>
+	</video_image>
+<!-- Textes -->
+	<text>
+		<caption 
+			text="POISSY%5Cnvs%5CnLA%20LOUVIERE%5Cnle%2027%2F07%2F2020%5Cn%C3%A0%5Cn19h00" 
+			color="0xFFFFFF" 
+			start="5" 
+			end="10" 
+			font="Armata" 
+			fontsize="16" 
+			textalign="center" 
+		/>
+		<caption 
+			text="SCORE" 
+			color="0xFFFFFF" 
+			start="4" 
+			end="30" 
+			font="Concert One" 
+			fontsize="14" 
+			textalign="center" 
+			preset="top-left"
+		/>
+	</text>
+
+</project>
